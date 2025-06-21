@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #FAF7FD;
+}
+
+
+
+
+
+.moldura {
+  min-width: 0;
+  max-width: 600px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  vertical-align: mixed;
+  Font-style: mixed;
+}
+
+
+.fotogatinha {
+  border-radius: 50%;
+}
+
+
+#perfil-foto {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 615px;
+  top: 207px;
+  border: 4px solid #BB99DD;
+  border-radius: 50%;
+
+
+}
+
+
+.insta-user {
+  position: absolute;
+  width: 99px;
+  height: 24px;
+  left: 650px;
+  top: 432px;
+  line-height: 24px;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+}
+
+
+/* isso aqui abixo tira as linhas que tem abaixo do link !!!*/
+a:link {
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.butao {
+
+
+  box-sizing: border-box;
+  position: absolute;
+  width: 326px;
+  height: 49px;
+  left: 556px;
+  color: #BB99DD;
+  border: 2px solid #BB99DD;
+  border-radius: 4px;
+  transition: 1s;
+}
+
+
+.pri {
+  top: 481px;
+}
+
+
+.seg {
+  top: 551px;
+}
+
+
+.ter {
+  top: 617px;
+}
+
+
+.qua {
+  top: 681px;
+}
+
+
+/* como eu consigui fazer isso olhar cada elemento e pensar, consigui centralizar o svg */
+#caixa-icons {
+  position: absolute;
+  width: 236px;
+  height: 24px;
+  left: 601px;
+  top: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.icon {
+  margin: 6px;
+  width: 45px;
+
+
+
+
+
+
+}
