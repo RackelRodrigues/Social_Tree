@@ -1,6 +1,6 @@
 # 🌐 Social_tree
 
-![cat](https://user-images.githubusercontent.com/101216652/229203637-076e879c-4a09-4ece-9c27-ce6234998806.png)
+![Image](https://github.com/user-attachments/assets/892adf4b-e4e6-4f57-9e53-f3765e41e4dc)
 
 Projeto de página de links com botões e ícones para acesso a redes sociais, desenvolvido em ReactJS da Rocketseat.
 
