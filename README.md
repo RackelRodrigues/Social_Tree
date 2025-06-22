@@ -2,7 +2,9 @@
 
 ![Image](https://github.com/user-attachments/assets/892adf4b-e4e6-4f57-9e53-f3765e41e4dc)
 
-A proposta do projeto é oferecer uma interface simples e responsiva que centraliza os principais links de uma pessoa ou marca, funcionando como um agregador de redes sociais. Possui imagem de perfil, nome de usuário, botões customizados para navegação e ícones interativos com links para plataformas como GitHub, Instagram, Twitter, entre outros.
+A proposta do projeto é oferecer uma interface simples e responsiva que centraliza os principais links de uma pessoa ou marca, funcionando como um agregador de redes sociais. Possui imagem de perfil, nome de usuário, botões customizados para navegação e ícones interativos com links para plataformas como GitHub, Instagram, Twitter, entre outros. 
+
+O conteúdo do perfil é carregado dinamicamente por meio da **API pública do GitHub**, permitindo exibir automaticamente dados como a foto de perfil e o nome do usuário.
 
 ## Desafio 🚀
 
