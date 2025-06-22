@@ -30,7 +30,7 @@ function App() {
   if (loading) {
     return (
       <div className="moldura">
-        <Circles height="80" width="80" color="#bb99dd" ariaLabel="loading" />
+        <p>Loading ...</p>
       </div>
     );
   }
