@@ -15,14 +15,11 @@ function App() {
     axios
       .get(`https://api.github.com/users/RackelRodrigues`)
       .then((response) => {
-        console.log(response.data);
         setUserDataPhoto(response.data.avatar_url);
         setUserDataName(response.data.login);
-        setLoading(false);
       })
       .catch((err) => {
-        setError(err.message);
-        setLoading(false);
+        console.err(err.message);
       });
   }, []);
 
@@ -36,13 +33,13 @@ function App() {
         <p className="socialName">@{userDataName}</p>
 
         <div className="ButtonsNav">
-          <button>Link 1 </button>
+          <button>Link 1</button>
 
-          <button>Link 2 </button>
+          <button>Link 2</button>
 
-          <button>Link 3 </button>
+          <button>Link 3</button>
 
-          <button>Link 4 </button>
+          <button>Link 4</button>
         </div>
 
         <div id="caixa-icons">
