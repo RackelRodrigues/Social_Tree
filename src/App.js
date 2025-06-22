@@ -1,5 +1,6 @@
 import axios from "axios";
 import "./App.css";
+import { Circles } from "react-loader-spinner";
 import github from "./images/github.svg";
 import instagram from "./images/instagram.svg";
 import linkedin from "./images/linkedin.svg";
@@ -10,6 +11,7 @@ import React, { useEffect, useState } from "react";
 function App() {
   const [userDataPhoto, setUserDataPhoto] = useState("");
   const [userDataName, setUserDataName] = useState("");
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     axios
@@ -17,11 +19,21 @@ function App() {
       .then((response) => {
         setUserDataPhoto(response.data.avatar_url);
         setUserDataName(response.data.login);
+        setLoading(false);
       })
       .catch((err) => {
         console.err(err.message);
+        setLoading(false);
       });
   }, []);
+
+  if (loading) {
+    return (
+      <div className="moldura">
+        <Circles height="80" width="80" color="#bb99dd" ariaLabel="loading" />
+      </div>
+    );
+  }
 
   return (
     <div className="moldura">
