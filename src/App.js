@@ -1,12 +1,12 @@
 import axios from "axios";
 import "./App.css";
-import { Circles } from "react-loader-spinner";
 import github from "./images/github.svg";
 import instagram from "./images/instagram.svg";
 import linkedin from "./images/linkedin.svg";
 import twitch from "./images/twitch.svg";
 import twitter from "./images/twitter.svg";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import React from "react";
 
 function App() {
   const [userDataPhoto, setUserDataPhoto] = useState("");
